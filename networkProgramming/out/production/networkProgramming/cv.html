@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student CV</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 40px 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+        h3 {
+            font-size: 1.5em;
+            color: #34495e;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+        li::before {
+            content: "•";
+            color: #2980b9;
+            margin-right: 10px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .skills, .experience {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills li, .experience li {
+            flex: 1 0 45%;
+            margin-bottom: 12px;
+        }
+        .skills li {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Student CV</h1>
+    <h2>Name: Team</h2>
+
+    <div class="section">
+        <h3>Education</h3>
+        <ul>
+            <li>Bachelor's in Computer Science - El Shorouk Academy</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h3>Skills</h3>
+        <ul class="skills">
+            <li>Java</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Web Development (HTML, CSS, JS)</li>
+            <li>Socket Programming</li>
+            <li>Database Management</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h3>Experience</h3>
+        <ul class="experience">
+            <li>Software Engineer at ITI Corp (2020 - Present)</li>
+            <li>Intern at ABC Technologies (2019 - 2020)</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
